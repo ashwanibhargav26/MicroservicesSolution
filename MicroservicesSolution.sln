@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServiceApi", "AuthServiceApi\AuthServiceApi.csproj", "{CECAA60A-999F-4830-BF9C-C140764FE796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUploadServiceApi", "FileUploadServiceApi\FileUploadServiceApi.csproj", "{B8D99673-C809-475E-857B-A64828701F66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CECAA60A-999F-4830-BF9C-C140764FE796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECAA60A-999F-4830-BF9C-C140764FE796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECAA60A-999F-4830-BF9C-C140764FE796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECAA60A-999F-4830-BF9C-C140764FE796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D99673-C809-475E-857B-A64828701F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D99673-C809-475E-857B-A64828701F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D99673-C809-475E-857B-A64828701F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D99673-C809-475E-857B-A64828701F66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6044AF2F-AED9-4561-9986-D8E8F7493D01}
+	EndGlobalSection
+EndGlobal
