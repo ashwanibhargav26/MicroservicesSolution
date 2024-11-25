@@ -26,7 +26,7 @@ namespace FileUploadServiceApi.Application.Commands
                 var filePath = await _blobStorageService.UploadFileAsync(request.File);
 
                 // Save file info in the database
-                var file = new Domain.Entities.File
+                var file = new Domain.Entities.FileEntity
                 {
                     FileName = request.File.FileName,
                     FilePath = filePath,

@@ -1,6 +1,6 @@
 ﻿namespace FileUploadServiceApi.Domain.Entities
 {
-    public class File
+    public class FileEntity
     {
         public Guid Id { get; set; }
         public string FileName { get; set; }
